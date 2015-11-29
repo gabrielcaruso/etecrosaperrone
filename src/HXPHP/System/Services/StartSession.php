@@ -17,7 +17,7 @@ class StartSession
 
         session_set_cookie_params($cookieParams["lifetime"], $cookieParams["path"], $cookieParams["domain"], false, true); 
 
-        session_name('sec_session_id');
+        session_name('erps_session');
         session_start();
         
         if ($regenerate) {

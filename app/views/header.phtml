@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<meta name="author" content="Gabriel Caruso">
-	<meta name="generator" content="HXPHP Framework">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-        
-	<title><?php echo $view_title; ?></title>
-        
-	<link rel="shortcut icon" href="<?php echo IMG; ?>favicon.png">
-	<link rel="stylesheet" href="<?php echo CSS; ?>materialize.min.css">	
-	<?php 
-		echo $add_css;
-		echo $add_js;
-	?>
-</head>
-<body>
-	<div class="container">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Gabriel Caruso">
+        <meta name="generator" content="HXPHP Framework">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="http://<?php echo $_SERVER['HTTP_HOST'].BASE?>">
+
+        <title><?php echo $view_title?></title>
+
+        <link rel="shortcut icon" href="<?php echo IMG?>favicon.png">
+        <link rel="stylesheet" href="<?php echo CSS?>materialize.min.css">
+        <script src="<?php echo JS?>jquery.min.js"></script>
+        <script src="<?php echo JS?>materialize.min.js"></script>        
+        <?php 
+            echo $add_css;
+            echo $add_js;
+        ?>
+    </head>
+    <body>
+        <div class="container">

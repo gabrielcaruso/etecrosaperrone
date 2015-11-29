@@ -232,7 +232,7 @@ class View
 		$viewsExt = $this->configs->views->extension;
 
 		//Atribuição das constantes
-		define('BASE',   $baseURI);
+                define('BASE',   $baseURI);
 		define('ASSETS', $baseURI . 'public/assets/');
 		define('IMG',    $baseURI . 'public/img/');
 		define('CSS',    $baseURI . 'public/css/');
