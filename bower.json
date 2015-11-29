@@ -1,0 +1,21 @@
+{
+  "name": "ETEC Rosa Perrne",
+  "authors": [
+    "Gabriel Caruso <carusogabriel34@gmail.com>"
+  ],
+  "description": "Arquivo bower para adiquirir versão mais redente do MaterializeCSS",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {    
+    "Materialize": "materialize#~0.97.3"
+  }
+}
