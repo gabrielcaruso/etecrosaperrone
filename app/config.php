@@ -13,7 +13,7 @@
             'dbname' => 'etecrosaperrone'
         ));
         
-        $configs->title = 'ETEC Rosa Perrone Scavone';
+        $configs->title = 'ETEC Rosa Perrone';
 
 	/*
 		//Globais
