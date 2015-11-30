@@ -12,6 +12,8 @@
             'password' => 'Tetabeta4',
             'dbname' => 'etecrosaperrone'
         ));
+        
+        $configs->title = 'ETEC Rosa Perrone Scavone';
 
 	/*
 		//Globais

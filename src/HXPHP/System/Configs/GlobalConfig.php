@@ -27,7 +27,7 @@ class GlobalConfig
 		$this->controllers->notFound = 'Error404Controller';
 
 		//General
-		$this->title = 'ETEC Rosa Perrone Scavone';
+		$this->title = 'HXPHP Framework';
 
 		return $this;
 	}
